@@ -1,0 +1,66 @@
+
+.w3-bar {
+    background-color: white;
+    min-width: 184px;
+}
+
+.w3-bar a {
+    color: #060097;
+    text-decoration: none;
+   
+}
+.w3-bar a:hover{
+    color: #fcb900;
+}
+.w3-bar-block a:hover{
+    color: #045cb4;
+}
+.w3-bar button {
+    color: #060097;
+    font-size: 1rem;
+}
+.w3-bar a:first-child{
+    font-family: "Allerta Stencil", Sans-serif;
+}
+.w3-dropdown-content a{
+    color: black;
+}
+#menu{
+    right:0;
+    top: 80px;
+    width: 100%;
+    background-color: #dfdff9;
+}
+body {
+    background-color: whitesmoke;
+}
+
+.margin {
+    margin: 20px;
+    background-color: rgb(233, 232, 240);
+    color: #01014a;
+}
+
+.exercise {
+    background-color: white;
+    color: rgb(34, 33, 33);
+}
+
+@media (min-width: 768px) {
+    .margin {
+        margin-top: 9%;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .margin {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 600px) {
+    .margin {
+        margin-top: 25%;
+    }
+}
